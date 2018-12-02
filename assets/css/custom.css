@@ -1,0 +1,123 @@
+
+blockquote {
+  border-left: solid 4px #ffffff;
+  font-style: italic;
+  margin: 0 0 2em 0;
+  padding: 0.5em 0 0.5em 2em;
+}
+
+code {
+  background: #17739f;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0 0.25em;
+  padding: 0.25em 0.65em;
+}
+
+#main {
+  background-color: #ffffff;
+}
+
+.tiles article:nth-child(6n - 5):before {
+  background-color: #17739f;
+}
+
+.tiles article:nth-child(6n - 4):before {
+  background-color: rgba(29, 29, 27, 0.9);
+}
+
+.tiles article:nth-child(6n - 3):before {
+  background-color: rgba(29, 29, 27, 0.9);
+}
+
+.tiles article:nth-child(6n - 2):before {
+  background-color: #17739f;
+}
+
+.tiles article:nth-child(6n - 1):before {
+  background-color: #17739f;
+}
+
+.tiles article:nth-child(6n):before {
+  background-color: rgba(29, 29, 27, 0.9);
+}
+.icon.alt:before {
+  background-color: #ffffff;
+  border-radius: 100%;
+  color: #17739f;
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  width: 2em;
+}
+
+a.icon.alt:hover:before {
+  background-color: #ffffff;
+}
+
+a.icon.alt:active:before {
+  background-color: #17739f;
+}
+a:hover {
+  border-bottom-color: transparent;
+  color: #9bf1ff !important;
+}
+
+a:active {
+  color: #ffffff !important;
+}
+
+strong, b {
+color: #ffffff;
+font-weight: 600;
+}
+
+h1 {
+  color: #17739f;
+  font-weight: 600;
+  line-height: 1.65;
+  margin: 0 0 1em 0;
+}
+hr {
+  border: 0;
+  border-bottom: solid 1px #17739f;
+  color: #17739f;
+  margin: 2em 0;
+}
+p {
+  margin: 0 0 2em 0;
+  color: #17739f;
+}
+
+a:hover {
+  border-bottom-color: transparent;
+  color: #17739f!important;
+}
+
+a:active {
+  color: #ffffff !important;
+}
+input[type="checkbox"] + label:before,
+input[type="radio"] + label:before {
+  background:#17739f ;
+  content: '';
+  display: inline-block;
+  height: 1.65em;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 1.58125em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 1.65em;
+}
+a {
+  -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  border-bottom: dotted 1px;
+  color: #17739f;
+  text-decoration: none;
+}
